@@ -1,0 +1,64 @@
+.form_background {
+    background-color: rgba(0, 0, 0, 0.212);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    transform: scale(0);
+    transition: transform .25s;
+}
+
+.form_background.able {
+    transform: scale(1);
+    transition: transform .25s;
+}
+
+.form_container {
+    background-color: #FFFFFF;
+    color: black;
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.form_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_item input {
+    width: 35vh;
+}
+
+.form_close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+}
+
+.form_close:hover {
+    cursor: pointer;
+}
+
+.form_title {
+    text-align: center;
+    color: #0F0F2D;
+}
+
+.form_btn {
+    border: 0;
+    background-color: #555A88;
+    color: #FFFFFF;
+    padding: 8px;
+    width: 100%;
+}

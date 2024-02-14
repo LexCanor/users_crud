@@ -1,0 +1,49 @@
+/* ------- Reset ------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: #fff;
+  color: black;
+  margin: 40px 40px 20px 40px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ------- App Styles ------- */
+
+.app_ti_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.app_btn {
+  display: flex;
+  cursor: pointer;
+  border: 0;
+  background-color: #555A88;
+  color: #FFFFFF;
+  padding: 8px 16px;
+}
+
+.app_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: space-evenly;
+  width: 100%;
+}

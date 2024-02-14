@@ -1,0 +1,53 @@
+.all_container {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.cardUser_container {
+    width: 300px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    overflow: hidden; 
+    margin: 15px;
+}
+
+.cardUser_title {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.cardUser_list {
+    margin: 10px;
+}
+
+.cardUser_item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.cardUser_item_cum {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px; 
+    margin-bottom: 5px;
+}
+
+.cardUser_span {
+    color: gray;
+}
+
+.cardUser_icon {
+    display: flex;
+    align-items: center;
+}
+
+.cardUser_btns {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    gap: 10px;
+}
