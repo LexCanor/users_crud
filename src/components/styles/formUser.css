@@ -58,6 +58,7 @@
 .form_btn {
     border: 0;
     background-color: #555A88;
+    cursor: pointer;
     color: #FFFFFF;
     padding: 8px;
     width: 100%;
