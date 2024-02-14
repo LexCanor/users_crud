@@ -17,8 +17,8 @@ return (
         <article className='cardUser_container'>
             <h3 className='cardUser_title'>{user.first_name} {user.last_name}</h3>
             <ul className='cardUser_list'>
-                <li className='cardUser_item'><span className='cardUser_span'>correo </span><span>{user.email}</span></li>
-                <li className='cardUser_item cardUser_item_cum'><span className='cardUser_span'>cumpleaños </span>
+                <li className='cardUser_item'><span className='cardUser_span'>Correo </span><span>{user.email}</span></li>
+                <li className='cardUser_item cardUser_item_cum'><span className='cardUser_span'>Cumpleaños </span>
                 <span className='cardUser_icon'><box-icon name='gift'></box-icon>{user.birthday}</span></li>
             </ul>
             <div className='cardUser_btns'>

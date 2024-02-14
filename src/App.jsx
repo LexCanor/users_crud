@@ -46,6 +46,7 @@ function App() {
             />
           ))
         }
+        <div className='capa'></div>
       </div>
     </div>
   )
